@@ -1,7 +1,5 @@
 # Git, Github and Bash - Title for README
 
-This is an amazing repo! :D
-This is a second amazing line to see the power of GIT!
 
 This repo covers the following concepts/ tools:
 - Github
@@ -16,8 +14,9 @@ Bash is a scripting language used by command line terminals.
 We can use it to create files, navigate our computer or run programs.
 
 ### Basic Bash commands
-- ls
+- ls , ls -a
 - rm
+-
 
 
 
@@ -31,6 +30,8 @@ It can also create separate branches (or universes) to allow us to experiment.
 0) git init
 0) git status
 0) git logs
+0) git checkout
+0) git remoite --v
 
 1) git add <file>
 2) git commit -m 'meaningful message'
