@@ -16,7 +16,9 @@ We can use it to create files, navigate our computer or run programs.
 ### Basic Bash commands
 - ls , ls -a
 - rm
--
+- pwd
+- rm, rm -rf
+
 
 
 
