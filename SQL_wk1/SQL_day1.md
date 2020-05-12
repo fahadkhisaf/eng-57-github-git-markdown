@@ -48,41 +48,30 @@ USE fahad_K_db
 
 CREATE TABLE film_table1
 
+CREATE TABLE film_tab
 (
-
     film_id INT IDENTITY(1,1),
-
     film_name VARCHAR(20),
-
     film_type VARCHAR(10),
-
     date_of_release DATETIME,
+    director_name VARCHAR(10),
+    writer_name VARCHAR(10),
+    star_cast VARCHAR(10),
+    film_language VARCHAR(10),
+    official_website VARCHAR(30),
+    plot_summary VARCHAR(max)
 
-    director VARCHAR(15),
 
-    writer VARCHAR(15),
-
-    star VARCHAR(10),
-
-    file_language VARCHAR(14),
-
-    offical_website VARCHAR(50),
-
-    plot_summary VARCHAR(MAX)
 
 );
 
-INSERT INTO film_table
+INSERT INTO film_tab
 (
-    film_name,film_type,plot_summary
+    film_name,film_type, plot_summary
 
- )
 
- VALUES
-
- (
-
-    'Geo-Storm', 'Sci-fi', 'maximum'
-
-  )  
-
+)
+VALUES
+(
+    'Geo-Storm', 'sci-fi', 'maximum'
+)
