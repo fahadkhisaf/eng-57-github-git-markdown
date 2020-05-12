@@ -45,6 +45,8 @@ student_classes: class_id, student_id     # the junction table
 
 # SQL 
 '''SQL
+
+
 USE fahad_K_db
 
 CREATE TABLE film_table1
