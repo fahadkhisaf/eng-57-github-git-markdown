@@ -44,4 +44,45 @@ student_classes: class_id, student_id     # the junction table
 - FLOAT: Equivalent to binary (0,1 or NULL)
 
 # SQL 
+USE fahad_K_db
+
+CREATE TABLE film_table1
+
+(
+
+    film_id INT IDENTITY(1,1),
+
+    film_name VARCHAR(20),
+
+    film_type VARCHAR(10),
+
+    date_of_release DATETIME,
+
+    director VARCHAR(15),
+
+    writer VARCHAR(15),
+
+    star VARCHAR(10),
+
+    file_language VARCHAR(14),
+
+    offical_website VARCHAR(50),
+
+    plot_summary VARCHAR(MAX)
+
+);
+
+INSERT INTO film_table
+(
+    film_name,film_type,plot_summary
+
+ )
+
+ VALUES
+
+ (
+
+    'Geo-Storm', 'Sci-fi', 'maximum'
+
+  )  
 
